@@ -15,54 +15,6 @@ const Login = (props) => {
   const [username1, setUsername] = useState('');
   const [password1, setPassword] = useState('');
 
-  
-  
-
-  // const redirect = () => {
-
-  //   fetch('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDcJTDEKX-L6vC-a2D5WbDPl2AoPzq_lrY', {
-  //     method: 'POST',
-  //     body: JSON.stringify({
-  //       email: username1,
-  //       password: password1,
-  //       returnSecureToken: true,
-  //     }),
-  //     headers: {
-  //       'Content-Type': 'application/json',
-  //     }
-  //   })
-  //   .then((res) => {
-  //       if (res.ok) {
-  //         return res.json().then(() => {
-  //         props.setloggedin(true);
-  //         console.log(props.loggedin);}
-          
-
-          
-  //       } else {
-  //         return res.json().then((data) => {
-  //           props.setloggedin(false);
-  //           let errorMessage = 'Authentication failed!';
-  //           console.log(props.loggedin);
-  //           // if (data && data.error && data.error.message) {
-  //           //   errorMessage = data.error.message;
-  //           // }
-
-  //           throw new Error(errorMessage);
-  //         });
-  //       }
-  //     })
-  //     .then((data) => {
-  //       console.log(data);
-  //     })
-  //     .catch((err) => {
-  //       alert(err.message);
-  //     });
-
-  //     props.setloggedin(true);
-  //     console.log(props.loggedin);
-  //   }
-
     async function redirect() {
 
       try {
