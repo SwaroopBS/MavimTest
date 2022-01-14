@@ -362,9 +362,10 @@ th {
     flex-direction: row;
     /* background:rgba(19, 96, 36, 0.445); */
     width: 50%;
-    height: 10rem;
+    height: 100%;
     align-items: center;
     justify-content: center;
+    align-items: center;
     column-gap: 3rem;
 }
 
