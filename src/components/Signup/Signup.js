@@ -103,7 +103,7 @@ const Signup = (props) => {
 
             <div className = {classes.part_logo}>
               
-              <div className= {classes.main_logo}>   
+              <div className= {classes.login_logo}>   
                 <img src = {main_logo} className = {classes.sub_logo_svg}></img>
               </div> 
               
