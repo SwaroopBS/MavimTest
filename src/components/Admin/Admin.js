@@ -88,7 +88,7 @@ const Admin = () => {
         </div>
 
         <div className = {classes.main2_part2_item}>
-        <a  href="https://www.google.co.in/">
+        <a  href="http://192.168.1.105:2204/">
             <img src = {image_process_icon} className = {classes.main2_part2_item1}></img>
         </a>
         </div>
