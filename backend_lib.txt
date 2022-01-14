@@ -1,9 +1,0 @@
-opencv:
-pip install opencv-python
-
-cmake:
-pip install cmake
-
-dlib
-
-face recognition module
